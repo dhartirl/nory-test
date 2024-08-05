@@ -1,0 +1,19 @@
+<div id="<%= dom_id order %>">
+  <p>
+    <strong>User:</strong>
+    <%= order.user_id %>
+  </p>
+
+  <p>
+    <strong>Confirmed:</strong>
+    <%= order.confirmed %>
+  </p>
+
+  <h3>Items</h3>
+  <ul>
+  <% order.items.each do |item| %>
+    <li><%= render item %></li>
+  <% end %>
+  </ul>
+
+</div>

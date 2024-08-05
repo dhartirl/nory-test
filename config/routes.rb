@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+  resources :recipe_ingredients
+  resources :order_items
+  resources :orders
+  resources :items
+  resources :modifiers
   devise_for :users
   resources :recipes
-  resources :locations
   resources :ingredients
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

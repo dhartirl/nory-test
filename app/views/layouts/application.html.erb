@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <h1>Weird Salads - <%= current_user&.location&.name || "Log In" %></h1>
+    <h1>Weird Salads</h1>
     <ul>
       <li><%= link_to "Home", "/" %></li>
       <% if current_user.present? %>
