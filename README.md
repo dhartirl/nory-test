@@ -1,24 +1,15 @@
-# README
+# Nory Code Test - Dave Hart
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project planning
 
-Things you may want to cover:
+30 minute planning session: Link to follow
 
-* Ruby version
+[Initial Investigation](planning/initial_notes.md)
+[Initial DB Diagram](planning/db_diagram.jpg)
 
-* System dependencies
 
-* Configuration
+## Problems encountered
 
-* Database creation
+### Single tenancy
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Single tenant application, but with same staff etc. Was initially concerned that requirements may warrant multi-tenant, but more explicit that data should not be shared.
