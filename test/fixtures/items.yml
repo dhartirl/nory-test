@@ -1,11 +1,21 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  recipe: one
-  modifier: one
-  price: 9.99
+chicken_burger_mayo:
+  recipe: chicken_burger
+  modifier: mayo
+  price: 12.50
 
-two:
-  recipe: two
-  modifier: two
-  price: 9.99
+chicken_burger_plain:
+  recipe: chicken_burger
+  price: 12.50
+
+beef_burger_plain:
+  recipe: beef_burger
+  price: 10.50
+  modifier: gluten
+
+beef_burger_relish:
+  recipe: beef_burger
+  price: 10.50
+  modifier: relish
+

@@ -1,11 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  unit: MyString
-  cost: 9.99
+chicken:
+  name: Chicken
+  unit: Breast
+  cost: 2.00
+  quantity: 8
 
-two:
-  name: MyString
-  unit: MyString
-  cost: 9.99
+bun:
+  name: Bun
+  unit: Pack
+  cost: 1.00
+  quantity: 4
+
+beef:
+  name: Beef
+  unit: Patty
+  cost: 1.50
+  quantity: 2

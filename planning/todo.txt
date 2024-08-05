@@ -1,2 +1,3 @@
 modifier price calculation
+confirm order - remove stock, prevent if no stock
 

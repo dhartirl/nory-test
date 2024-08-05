@@ -1,11 +1,16 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  type: 1
-  name: MyString
-  price: 9.99
+relish:
+  mod_type: 0
+  name: Ballymaloe Relish
+  price: 0.25
 
-two:
-  type: 1
-  name: MyString
-  price: 9.99
+mayo:
+  mod_type: 0
+  name: Mayonnaise
+  price: 0.10
+
+gluten:
+  mod_type: 1
+  name: Gluten
+  price: 0

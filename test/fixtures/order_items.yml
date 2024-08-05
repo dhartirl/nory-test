@@ -2,8 +2,8 @@
 
 one:
   order: one
-  item: one
+  item: chicken_burger_mayo
 
 two:
-  order: two
-  item: two
+  order: one
+  item: beef_burger_relish
