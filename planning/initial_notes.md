@@ -1,15 +1,15 @@
 # Notes
 
-Multiple locations
-Each location has its own data
-Cross platform
-Not public facing
-No shared data
-Mobile first
-Individual menus
-Staff verification
-Restriction to permitted recipes
-Non-technical, busy staff
+- Multiple locations
+- Each location has its own data
+- Cross platform
+- Not public facing
+- No shared data
+- Mobile first
+- Individual menus
+- Staff verification
+- Restriction to permitted recipes
+- Non-technical, busy staff
 
 # Test requirements
 - Which problems to solve and why
